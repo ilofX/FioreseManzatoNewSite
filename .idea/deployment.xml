@@ -9,6 +9,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="XAMPP Mac">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/FioreseManzatoNewSite" local="$PROJECT_DIR$" web="/FioreseManzatoNewSite" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
   </component>
 </project>

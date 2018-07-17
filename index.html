@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <!--
-    Copyright 2018 Filippo Stella
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-     http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+-    Copyright 2018 Filippo Stella
+-
+-   Licensed under the Apache License, Version 2.0 (the "License")
+-   you may not use this file except in compliance with the License.
+-   You may obtain a copy of the License at
+-
+-     http://www.apache.org/licenses/LICENSE-2.0
+-
+-   Unless required by applicable law or agreed to in writing, software
+-   distributed under the License is distributed on an "AS IS" BASIS,
+-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-   See the License for the specific language governing permissions and
+-   limitations under the License.
 -->
 <html lang="en">
     <head>
@@ -28,40 +28,16 @@
         <title>Home Page</title>
     </head>
     <body>
-    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Fiorese &AMP; Manzato</a>
+    <!-- top navbar section -->
+    <nav class="navbar sticky-top navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                 aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarContent">
-            <div class="navbar-text mr-auto"></div>
-            <ul class="navbar-nav" style="padding-right: 1em;">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-            </ul>
-        </div>
+        <div class="m-md-auto"></div>
+        <a class="navbar-brand" href="#">Fiorese &AMP; Manzato</a>
         </nav>
+
 
     <h3>
         Lorem ipsum dolor sit amet, qui summo rationibus ex. Nec at duis reprehendunt, deleniti quaerendum his ad.
@@ -85,10 +61,12 @@
         vix. Munere ubique id vel, ut labore salutatus neglegentur sea.
     </h3>
 
-    <button type="button" class="btn btn-dark scroll-to-top" id="scroll-to-top"><span class="arrow arrow-up"></span>
+    <!-- scroll to top button -->
+    <button type="button" class="btn btn-dark scroll-to-top" id="scroll-to-top">
+        <span class="arrow arrow-up"></span>
     </button>
     </body>
     <script type="application/javascript">
-        init();
+        utils_init();
     </script>
 </html>

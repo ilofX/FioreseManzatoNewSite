@@ -3,7 +3,10 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="807af3c9-e5dc-460e-bb94-6fa3830999b9" name="XAMPP" url="http://localhost/Projects">
-        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\Projects" accessType="MOUNT" />
+        <fileTransfer port="0" mountedRoot="$APPLICATION_HOME_DIR$/bin/C:\xampp\htdocs\Projects" accessType="MOUNT" />
+      </webServer>
+      <webServer id="b51f32c8-b41f-4c6b-8d05-75dfbd01c55f" name="XAMPP Mac" url="http://localhost/Projects">
+        <fileTransfer port="0" mountedRoot="/Applications/XAMPP/xamppfiles/htdocs/Projects" accessType="MOUNT" />
       </webServer>
     </option>
   </component>

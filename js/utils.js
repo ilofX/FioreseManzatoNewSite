@@ -13,7 +13,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
  */
-function init() {
+function utils_init() {
     $(document).ready(function () {
 
         //Check to see if the window is top if not then display button
