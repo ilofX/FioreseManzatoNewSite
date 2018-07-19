@@ -23,22 +23,22 @@
         <link rel="stylesheet" media="all" href="css/jquery.mCustomScrollbar.min.css"/>
         <title>Home Page</title>
     </head>
-    <body>
+    <body id="body">
 
     <div class="wrapper">
 
         <!-- sidebar -->
-        <nav id="sidebar">
+        <nav id="sidebar" class="navbar-dark bg-dark">
 
-            <div id="dismiss">
-                Chiudi
+            <div id="dismiss" class="dismissIcon">
+                <span><img src="images/baseline-close-24px.svg" alt="close" class="dismissIcon"/></span>
             </div>
 
-            <ul class="list-unstyled components">
-                <li class="active"><a href="#">Home</a></li>
-                <li class="active"><a href="#">Home2</a></li>
-                <li class="active"><a href="#">Home3</a></li>
-                <li class="active"><a href="#">Home4</a></li>
+            <ul class="navbar-nav side-nav components">
+                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Home2</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Home3</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Home4</a></li>
             </ul>
         </nav>
 
@@ -46,43 +46,53 @@
         <div id="content">
 
             <!-- top navbar section -->
-            <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" style="z-index: 997">
-                <button class="btn btn-dark" type="button" id="sidebarCollapse">
-                    <span>Fiorese &AMP; Manzato</span>
-                </button>
+            <nav class="navbar sticky-top navbar-dark bg-dark" style="z-index: 997">
+                <div class="mr-auto">
+                    <button class="navbar-toggler" type="button" id="sidebarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <a class="navbar-brand" href="#">Fiorese &AMP; Manzato</a>
             </nav>
 
 
-            <h3>
-                Lorem ipsum dolor sit amet, qui summo rationibus ex. Nec at duis reprehendunt, deleniti quaerendum his
-                ad.
-                Legendos torquatos assentior mel id, et insolens philosophia duo. Homero posidonium eu sed, nobis partem
-                deleniti est at. No enim abhorreant pri. Altera putant blandit ex vis. Vel senserit persequeris ex.
+            <div id="mainContent">
+                <h3>
+                    Lorem ipsum dolor sit amet, qui summo rationibus ex. Nec at duis reprehendunt, deleniti quaerendum
+                    his
+                    ad.
+                    Legendos torquatos assentior mel id, et insolens philosophia duo. Homero posidonium eu sed, nobis
+                    partem
+                    deleniti est at. No enim abhorreant pri. Altera putant blandit ex vis. Vel senserit persequeris ex.
 
-                Nonumy delenit fierent cum ex, duo no wisi interpretaris. Dicant putant appetere cu nec. Mei an
-                laboramus
-                signiferumque. Sed detraxit temporibus te, qui ea petentium explicari, dolore sensibus facilisis eos te.
-                Congue
-                persecuti vel ex.
+                    Nonumy delenit fierent cum ex, duo no wisi interpretaris. Dicant putant appetere cu nec. Mei an
+                    laboramus
+                    signiferumque. Sed detraxit temporibus te, qui ea petentium explicari, dolore sensibus facilisis eos
+                    te.
+                    Congue
+                    persecuti vel ex.
 
-                Id vis modus aliquid facilisis, pri ad debet regione adversarium. Vitae mollis persius per at, eu agam
-                ullum
-                nam. Agam essent ne vim, sale senserit prodesset in vis. Vix blandit salutandi ea.
+                    Id vis modus aliquid facilisis, pri ad debet regione adversarium. Vitae mollis persius per at, eu
+                    agam
+                    ullum
+                    nam. Agam essent ne vim, sale senserit prodesset in vis. Vix blandit salutandi ea.
 
-                Vim ut utamur habemus, sed augue detraxit accusamus ei. Ut inani aliquam intellegebat duo, clita delenit
-                sit no.
-                Delectus deterruisset ex sed, mei no prompta debitis oporteat. Est virtute adversarium no, dicta
-                iudicabit eu
-                pro, sea et mucius salutatus. Ad pri mundi commune invenire, consetetur repudiandae eu vim, pro id
-                verear
-                scaevola. Ad omnis utroque epicuri vim, eu eos mundi definiebas.
+                    Vim ut utamur habemus, sed augue detraxit accusamus ei. Ut inani aliquam intellegebat duo, clita
+                    delenit
+                    sit no.
+                    Delectus deterruisset ex sed, mei no prompta debitis oporteat. Est virtute adversarium no, dicta
+                    iudicabit eu
+                    pro, sea et mucius salutatus. Ad pri mundi commune invenire, consetetur repudiandae eu vim, pro id
+                    verear
+                    scaevola. Ad omnis utroque epicuri vim, eu eos mundi definiebas.
 
-                Ne eruditi facilisis mel, dicant commune voluptua vim at. No sumo quando efficiendi vis. Cu augue
-                rationibus
-                vis. Ea discere neglegentur qui, te primis eleifend delicata eum. Stet mazim an has, quando facilis
-                conceptam te
-                vix. Munere ubique id vel, ut labore salutatus neglegentur sea.
-            </h3>
+                    Ne eruditi facilisis mel, dicant commune voluptua vim at. No sumo quando efficiendi vis. Cu augue
+                    rationibus
+                    vis. Ea discere neglegentur qui, te primis eleifend delicata eum. Stet mazim an has, quando facilis
+                    conceptam te
+                    vix. Munere ubique id vel, ut labore salutatus neglegentur sea.
+                </h3>
+            </div>
 
             <!-- dark overlay -->
             <div class="overlay"></div>
