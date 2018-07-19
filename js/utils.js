@@ -45,7 +45,6 @@ function utils_init_sidebar() {
         // hide overlay
         $('.overlay').removeClass('active');
         //move content
-        $('#mainContent').css('margin-left', '0px');
         $('#body').removeClass('noXoverflow');
     });
 
@@ -55,7 +54,6 @@ function utils_init_sidebar() {
         // fade in the overlay
         $('.overlay').addClass('active');
         //move content
-        $('#mainContent').css('margin-left', '250px');
         $('#body').addClass('noXoverflow');
     });
 }
