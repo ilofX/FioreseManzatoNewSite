@@ -145,3 +145,9 @@
     object-fit: cover;
 }
 
+.main-image-fixed {
+    width: 20%;
+    height: fit-content;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.7);
+}
