@@ -151,3 +151,10 @@
     z-index: 1000;
     background: rgba(0, 0, 0, 0.7);
 }
+
+#logo {
+    width: 20vw;
+    height: auto;
+    float: left;
+    padding: 2pt;
+}
