@@ -1,0 +1,16 @@
+{
+  "@metadata": {
+    "authors": [
+      "Filippo"
+    ],
+    "last-updated": "2018-11-22",
+    "locale": "it",
+    "message-documentation": "Localizzazione in linugua italiana per il sito Fiorese & Manzato",
+    "AnotherMetadata": "AnotherMedatadataValue"
+  },
+  "en": {
+    "site-title": "Fiorese & Manzato",
+    "site-subtitle": "Studio Commercialistico e Legale",
+    "site-introduction": "Questo è un testo di esempio per una generica introduzione"
+  }
+}

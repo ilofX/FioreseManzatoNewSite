@@ -1,0 +1,16 @@
+{
+  "@metadata": {
+    "authors": [
+      "Filippo"
+    ],
+    "last-updated": "2018-11-22",
+    "locale": "en",
+    "message-documentation": "Default language for Fiorese&Manzato site",
+    "AnotherMetadata": "AnotherMedatadataValue"
+  },
+  "en": {
+    "site-title": "Fiorese & Manzato",
+    "site-subtitle": "Accountant and Law Firm",
+    "site-introduction": "This is an example test for a generic introduction"
+  }
+}
