@@ -57,3 +57,10 @@ function utils_init_sidebar() {
         $('#body').addClass('noXoverflow');
     });
 }
+
+function init_locale() {
+    var i18n = $.i18n();
+    i18n.locale = 'en';
+    i18n.load('../languages/en.json', 'en');
+    $('body').i18n();
+}

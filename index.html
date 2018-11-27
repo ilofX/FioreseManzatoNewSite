@@ -21,7 +21,7 @@
         <link rel="stylesheet" media="all" href="css/bootstrap.min.css"/>
         <link rel="stylesheet" media="all" href="css/utils.css"/>
         <link rel="stylesheet" media="all" href="css/jquery.mCustomScrollbar.min.css"/>
-        <title data-i18n="message-key"></title>
+        <title>Fiorese & Manzato</title>
     </head>
     <body id="body">
 
@@ -70,7 +70,8 @@
                             </div>
                         </div>
                     </div>
-
+                <h4 data-i18n="site-introduction"></h4>
+                <br/><br/>
                 <h3>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed orci sit amet mi sodales iaculis
                     at vel est. Donec ac vestibulum libero. Nam imperdiet mi mauris, in egestas turpis porta tincidunt.
@@ -134,10 +135,10 @@
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 
     <!-- importing scripts for internationalization -->
-    <script src="js/jquery.i18n.emitter.js"></script>
-    <script src="js/jquery.i18n.fallbacks.js"></script>
     <script src="js/jquery.i18n.js"></script>
     <script src="js/jquery.i18n.language.js"></script>
+    <script src="js/jquery.i18n.fallbacks.js"></script>
+    <script src="js/jquery.i18n.emitter.js"></script>
     <script src="js/jquery.i18n.messagestore.js"></script>
     <script src="js/jquery.i18n.parser.js"></script>
     <script src="js/jquery.i18n.emitter.bidi.js"></script>
@@ -148,6 +149,7 @@
         $(document).ready(function () {
             utils_init();
             utils_init_sidebar();
+            init_locale();
         });
     </script>
 </html>
