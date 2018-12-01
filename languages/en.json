@@ -4,13 +4,10 @@
       "Filippo"
     ],
     "last-updated": "2018-11-22",
-    "locale": "en",
-    "message-documentation": "Default language for Fiorese&Manzato site",
-    "AnotherMetadata": "AnotherMetadataValue"
+    "locale": "en"
+    "message-documentation": "Default language for Fiorese&Manzato site"
   },
-  "en": {
-    "site-title": "Fiorese & Manzato",
-    "site-subtitle": "Accountant and Law Firm",
-    "site-introduction": "This is an example text for a generic introduction"
-  }
+  "site-title": "Fiorese & Manzato",
+  "site-subtitle": "Accountant and Law Firm",
+  "site-introduction": "This is an example text for a generic introduction"
 }

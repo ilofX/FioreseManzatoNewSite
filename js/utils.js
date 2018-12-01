@@ -59,8 +59,12 @@ function utils_init_sidebar() {
 }
 
 function init_locale() {
-    var i18n = $.i18n();
-    i18n.locale = 'en';
-    i18n.load('../languages/en.json', 'en');
+    $.i18n().load({
+        'en': 'languages/en.json',
+        'it': 'languages/it.json'
+    });
+    $.i18n({
+        locale: 'en'
+    });
     $('body').i18n();
 }
