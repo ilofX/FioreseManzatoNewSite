@@ -149,7 +149,7 @@
     width: 20%;
     height: fit-content;
     z-index: 1000;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 #logo {
@@ -157,4 +157,16 @@
     height: auto;
     float: left;
     padding: 2pt;
+}
+
+.text-container {
+    position: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.text-center-left {
+    position: absolute;
+    right: 10vw;
+    top: 20vh;
 }

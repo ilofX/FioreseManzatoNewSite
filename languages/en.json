@@ -5,12 +5,12 @@
     ],
     "last-updated": "2018-11-22",
     "locale": "en",
-    "message-documentation": "Default language for Fiorese&Manzato site",
-    "AnotherMetadata": "AnotherMedatadataValue"
+    "message-documentation": "Default language for Fiorese&Manzato site"
   },
   "en": {
     "site-title": "Fiorese & Manzato",
     "site-subtitle": "Accountant and Law Firm",
-    "site-introduction": "This is an example test for a generic introduction"
+    "site-introduction": "This is an example text for a generic introduction",
+    "titolo": "Titolo del sito"
   }
 }
