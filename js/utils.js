@@ -13,6 +13,11 @@
    See the License for the specific language governing permissions and
    limitations under the License.
  */
+
+//Variables Declaration
+var i18n;
+
+//Functions
 function utils_init() {
     $(document).ready(function () {
 
@@ -55,5 +60,36 @@ function utils_init_sidebar() {
         $('.overlay').addClass('active');
         //move content
         $('#body').addClass('noXoverflow');
+    });
+}
+
+function init_locale() {
+    i18n = $.i18n();
+    i18n.locale = "en";
+    load_locale(i18n);
+    $.i18n.debug = false;
+    $("body").i18n();
+}
+
+function load_locale(i18n) {
+    i18n.load({
+        "@metadata": {
+            "authors": [
+                "Filippo"
+            ],
+            "last-updated": "2018-11-22",
+            "message-documentation": "Language translation file"
+        },
+        "en": {
+            "site-title": "Fiorese & Manzato",
+            "site-subtitle": "Accountant and Law Firm",
+            "site-introduction": "This is an example text for a generic introduction",
+            "titolo": "Titolo del sito"
+        },
+        "it": {
+            "site-title": "Fiorese & Manzato",
+            "site-subtitle": "Studio Commercialistico e Legale",
+            "site-introduction": "Questo è un testo di esempio per una generica introduzione"
+        }
     });
 }
